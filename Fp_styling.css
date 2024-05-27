@@ -1,0 +1,120 @@
+body {
+    display: grid;
+    grid-template-areas:
+        'header'
+        'nav'
+        'main'
+        'main';
+    background-color: #E4E4DE;
+    color: #1B1B1B;
+    font-family: 'Poppins';
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
+header {
+    grid-area: header;
+    grid-template-areas:
+        'title'
+        'nav';
+    text-align: center;
+    font-size: x-large;
+    margin: 0px;
+    padding: 0px;
+    position: -webkit-sticky;
+    /* Safari */
+    position: sticky;
+    top: 0;
+    border:7.5px #1B1B1B solid;
+    border-radius: 15px;
+    background-color: #E4E4DE;
+}
+#title {
+    grid-area: 'title';
+    border-bottom: 7.5px #1B1B1B solid;
+}
+
+h1 {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins';
+}
+
+nav {
+    grid-area: 'nav';
+    border-top: 0px;
+    font-size: larger;
+    padding: 2.5px;
+}
+
+table,
+th,
+td {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    font-size: xx-large;
+}
+
+.navWeb {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+main {
+    margin-top: 10px;
+    padding-top: 0px;
+    grid-area: main;
+    display: grid;
+    margin-bottom: 0px;
+}
+
+p {
+    font-size: xx-large;
+    text-align: center;
+}
+
+button {
+    flex: 1;
+    background-color: #1B1B1B;
+    color: #E4E4DE;
+    border: 1px solid;
+    padding: 0.5rem;
+    text-align: center;
+    /* text-decoration: none; */
+    font-family: 'Poppins';
+    font-size: large;
+    border: #1B1B1B solid 2.5px;
+    width: 10em;
+    height: 3em;
+    transition: all 0.5s ease-out;
+}
+
+button:hover,
+button:focus {
+    background-color: #E4E4DE;
+    color: #1B1B1B;
+    width: 10.5em;
+    height: 3.5em;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    border: 15px #1B1B1B solid;
+    width: 750px;
+    height: 450px;
+    padding: 0%;
+    margin: 0%;
+}
+
+#rutgers{
+    width: 35%;
+    height: 35%;
+}
+#cbl{
+    width: 50%;
+    height: 50%;
+}
