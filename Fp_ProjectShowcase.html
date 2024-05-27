@@ -4,93 +4,8 @@
     <meta charset="utf-8">
     <title>Where Am I(Project Showcase)</title>
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
-    <style>
-        body {
-            display: grid;
-            grid-template-areas:
-                'header'
-                'nav'
-                'main'
-                'main';
-            color: #474787;
-            font-family: 'Poppins';
-            background-color: #ECECEC;
-        }
-        header {
-            grid-area: header;
-            grid-template-areas:
-                'title'
-                'nav';
-            text-align: center;
-            font-size: x-large;
-            margin: 0px;
-            padding: 0px;
-            position: -webkit-sticky;
-            /* Safari */
-            position: sticky;
-            top: 0;
-        }
-        #title{
-            grid-area: 'title';
-            border: 7.5px #2C2C54 solid;
-            background-color: #ECECEC;
-        }
-        h1 {
-            margin: 0px;
-            padding: 0px;
-            font-family: 'Poppins';
-        }
-        nav {
-            grid-area: 'nav';
-            border: 7.5px #2C2C54 solid;
-            background-color: #ECECEC;
-            border-top: 0px;
-            font-size: larger;
-            padding: 2.5px;
-        }
-        table,
-        th,
-        td {
-            text-align: center;
-            margin: 0px;
-            padding: 0px;
-            font-size: xx-large;
-        }
-
-        .navWeb {
-            padding-left: 10px;
-            padding-right: 10px;
-        }
-
-        main {
-            margin-top: 10px;
-            padding-top: 0px;
-            grid-area: main;
-            display: grid;
-            margin-bottom: 0px;
-        }
-        p{
-            font-size: xx-large;
-            text-align: center;
-        }
-        button{
-            border: #2C2C54 solid 5px;
-            margin: 2.5px;
-            background-color:#ECECEC;
-            color: #474787;
-            font-size: xx-large;
-        }
-        .center {
-            margin-left: auto;
-            margin-right: auto;
-        }
-        img{
-            border: 15px midnightblue double;
-            background-color:#ECECEC;
-            width: 750px;
-            height: 450px;
-        }
-    </style>
+    <link rel="stylesheet" href="Fp_styling.css">
+    </head>
 </head>
 <body id="body">
     <header>
@@ -102,21 +17,19 @@
             <table class="center">
                 <tr>
                     <td class="navWeb">
-                        <a class="nav"
-                            href="file:///C:/Users/633004/Downloads/Final_projet_2024/Fp_HomePage.html"><button>Home</button></a>
+                        <a class="nav" href="Fp_HomePage.html" target="iframe_a"><button>Home</button></a>
                     </td>
                     <td class="navWeb">
-                        <a class="nav"
-                            href="C:/Users/633004/Downloads/Final_projet_2024/Fp_Reflection.html"><button>Reflection</button></a>
+                        <a class="nav" href="Fp_Reflection.html"><button>Reflection</button></a>
                     </td>
                     <td class="navWeb">
-                        <a class="nav"
-                            href="file:///C:/Users/633004/Downloads/Final_projet_2024/Fp_Resume1.html"><button>Resume</button></a>
+                        <a class="nav" href="Fp_Resume1.html"><button>Resume</button></a>
                     </td>
                     <td class="navWeb">
-                        <a class="nav"
-                            href="file:///C:/Users/633004/Downloads/Final_projet_2024/Fp_ProjectShowcase.html"><button>Project
-                                Showcase</button></a>
+                        <a class="nav" href="Fp_ProjectShowcase.html"><button>Project Showcase</button></a>
+                    </td>
+                    <td class="navWeb">
+                        <a class="nav" href="FutureGoals.html"><button>Future Goals</button></a>
                     </td>
                 </tr>
             </table>
@@ -126,14 +39,17 @@
         <table>
             <tr>
                 <td><img src="WebsiteFreshmenYear.png"/></td>
-                <td>This was the first website I created freshmen year with Project Innovate. This website was more of a copy and paste task then learning and showed me the power of programming then teaching me how to program.</td>
+                <td>This was the first website I created freshmen year with Project Innovate. This website was more of a copy-and-paste task
+                than learning and showed me the power of programming then teaching me how to program.</td>
             </tr>
             <tr>
-                <td>This was my AP Computer Science Principles Create Task(p.s is doesn't work now ask to use it next year). This website showed off the skills I learn </td>
+                <td>This was my AP Computer Science Principles Create Task. It was based on the beloved paper game Hangman. The main program
+                language used was JavaScript. It has had some issues I have not been able to fix however, I am recreating the program
+                for my project showcase this year in Java.</td>
                 <td><img src="WebsiteSoftmoreYear.png" /></td>
             </tr>
             <tr>
-                <td colspan="2">For this year I chose something outside the box. While this website is I wanted to chose and is my project showcase I wanted to do a little more, something I created outside of school. My drums! The music in the background is attached using javascript. I hope this counts and I hope you enjoy. </td>
+                <td colspan="2">This year I have recreated the Hangman program in Java that works and fully operational.</td>
             </tr>
         </table>
     </main>
